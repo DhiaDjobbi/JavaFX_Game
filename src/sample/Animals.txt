@@ -1,0 +1,4 @@
+panda#panda.mp3#panda.png
+cow#cow.mp3#cow.png
+duck#duck.mp3#duck.png
+chicken#chicken.mp3#chicken.png

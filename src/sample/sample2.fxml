@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane stylesheets="@placeholder.css" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="386.0" prefWidth="426.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller2">
+    <children>
+        <Button fx:id="btn3" layoutX="158.0" layoutY="304.0" mnemonicParsing="false" onAction="#Btn3Action" prefHeight="32.0" prefWidth="121.0" text="Add the animal" textAlignment="RIGHT" />
+        <Button fx:id="btn1" layoutX="20.0" layoutY="140.0" mnemonicParsing="false" onAction="#Btn1Action" text="Add Animal Sound" />
+        <Button fx:id="btn2" layoutX="20.0" layoutY="215.0" mnemonicParsing="false" onAction="#Btn2Action" text="Add Animal Picture" />
+        <ListView fx:id="list1" layoutX="154.0" layoutY="140.0" prefHeight="25.0" prefWidth="253.0">
+                <placeholder>
+                    <Label text="no file selected" />
+                </placeholder>
+         </ListView>
+        <ListView fx:id="list2" layoutX="155.0" layoutY="215.0" prefHeight="25.0" prefWidth="253.0" >
+                <placeholder>
+                    <Label text="no file selected" />
+                </placeholder>
+            </ListView>
+
+    <TextField fx:id="name" layoutX="158.0" layoutY="62.0" />
+        <Text layoutX="35.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Animal name ">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Text>
+    </children>
+</AnchorPane>
